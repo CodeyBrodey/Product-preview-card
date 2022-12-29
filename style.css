@@ -1,0 +1,108 @@
+:root{
+    --dark-cyan-clr: hsl(158, 36%, 37%);
+    --cream-clr: hsl(30, 38%, 92%);
+    --neutral-1000-clr: hsl(0, 0%, 0%);
+    --neutral-900-clr: hsl(212, 21%, 14%);
+    --neutral-800-clr: hsl(228, 12%, 48%);
+    --neutral-0-clr: hsl(0, 0%, 100%);
+    --ff-neutral: 'Montserrat', sans-serif;
+    --ff-accent: 'Fraunces', serif;
+}
+
+
+/* GENERAL */
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--ff-neutral);
+    color: var(--neutral-900-clr);
+    background-color: var(--cream-clr);
+}
+
+
+/* CARD */
+.card{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.mobile-image{
+    width: 100%;
+}
+
+.image{/* div put unknown space under img fix */
+    max-height: 262px;
+}
+
+.description{
+    background-color: var(--neutral-0-clr);
+    padding: 0 1.5em;
+}
+
+.item-type{
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.7ch;
+    color: var(--neutral-800-clr);
+    margin: 2em 0 1em 0;
+}
+
+.perfume-name{
+    font-family: var(--ff-accent);
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.item-description{
+    color: var(--neutral-800-clr);
+    font-size: 0.9rem;
+    line-height: 1.8;
+    margin: 1em 0;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.discounted-price{
+    font-family: var(--ff-accent);
+    font-size: 2rem;
+    color: var(--dark-cyan-clr);
+}
+
+.price{
+    color: var(--neutral-800-clr);
+    text-decoration: line-through;
+    font-size: 0.85rem;
+}
+
+.cart-btn{
+    margin: 1.5em 0 2em 0;
+    width: 100%;
+    border-style: none;
+    background-color: var(--dark-cyan-clr);
+    font-family: var(--ff-neutral);
+    font-weight: 700;
+    color: var(--neutral-0-clr);
+    padding: 1.25em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    border-radius: 8px;
+}
+
+.cart-btn:hover{
+    background-color: hsl(158, 36%, 15%);
+}
