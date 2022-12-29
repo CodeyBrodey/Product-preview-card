@@ -26,20 +26,19 @@ body{
 
 /* CARD */
 .card{
-    width: 375px;
+    max-width: 375px;
+    margin: 1.5em auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;
-    margin: 0 auto;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .mobile-image{
     width: 100%;
-}
-
-.image{/* div put unknown space under img fix */
-    /* max-height: 262px; */
+    display: block;
 }
 
 .description{
@@ -106,3 +105,4 @@ body{
 .cart-btn:hover{
     background-color: hsl(158, 36%, 15%);
 }
+
