@@ -39,7 +39,7 @@ body{
 }
 
 .image{/* div put unknown space under img fix */
-    max-height: 262px;
+    /* max-height: 262px; */
 }
 
 .description{
