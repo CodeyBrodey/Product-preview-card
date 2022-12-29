@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](../Product-preview-card/images/screenshot.png)
 
 ### Links
 
 - Solution URL: (https://github.com/CodeyBrodey/Product-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://codeybrodey.github.io/Product-preview-card/)
 
 ## My process
 
