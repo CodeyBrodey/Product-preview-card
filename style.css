@@ -106,6 +106,7 @@ body{
     justify-content: center;
     gap: 1em;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .cart-btn:hover{
